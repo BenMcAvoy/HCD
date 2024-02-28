@@ -1,4 +1,12 @@
 package benmcavoy.hcdemo.gui;
 
-public class ModWidget {
+import net.minecraft.client.gui.widget.CheckboxWidget;
+
+public abstract class ModWidget {
+    public CheckboxWidget enabledWidget;
+    public String name;
+
+    ModWidget(String name) {
+        this.name = name;
+    }
 }
