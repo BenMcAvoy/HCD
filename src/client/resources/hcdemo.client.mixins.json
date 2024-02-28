@@ -1,8 +1,10 @@
 {
 	"required": true,
-	"package": "benmcavoy.hcdemo.mixin.client",
+	"package": "benmcavoy.hcdemo.mixins",
 	"compatibilityLevel": "JAVA_17",
-	"client": [],
+	"client": [
+		"TitleScreenMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	}
